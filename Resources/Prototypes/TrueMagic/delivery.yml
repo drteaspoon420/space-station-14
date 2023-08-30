@@ -1,0 +1,20 @@
+# send projectile that causes spell effect.
+- type: trueMagicDelivery
+  id: projectileCast
+
+# spawn a rune at feet, may trigger soon after
+- type: trueMagicDelivery
+  id: runeCast
+
+# apply spell to caster
+- type: trueMagicDelivery
+  id: selfCast
+
+# just any point, anywhere. nearest valid entity
+- type: trueMagicDelivery
+  id: pointCast
+
+# whilte list of things that can be used, interacted with or can recieve a signal.
+# spell applies when activated.
+- type: trueMagicDelivery
+  id: trapCast
