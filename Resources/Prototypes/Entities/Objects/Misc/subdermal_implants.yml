@@ -256,3 +256,21 @@
       - Dead
     - type: Rattle
 
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: MagicImplant
+  name: magic implant
+  description: This implant lets the user access magic at will.
+  noSpawn: true
+  components:
+  - type: SubdermalImplant
+    implantAction: ActionOpenMagicImplant
+  - type: Store
+    preset: StorePresetUplink
+    balance:
+      Telecrystal: 0
+  - type: UserInterface
+    interfaces:
+    - key: enum.StoreUiKey.Key
+      type: StoreBoundUserInterface
