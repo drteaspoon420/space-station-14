@@ -28,7 +28,7 @@
       amount: 1
     RobustHarvest:
       amount: 3
-    Diethylamine: 
+    Diethylamine:
       amount: 3
   products:
     Sedin: 1
@@ -53,3 +53,16 @@
       amount: 4
   products:
     PlantBGone: 5
+
+- type: reaction
+  id: Chloroforge
+  minTemp: 370
+  reactants:
+    Milk:
+      amount: 1
+    Chlorine:
+      amount: 1
+    UnstableMutagen:
+      amount: 1
+  products:
+    Chloroforge: 3

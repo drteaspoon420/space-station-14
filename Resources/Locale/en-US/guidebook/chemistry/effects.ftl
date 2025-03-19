@@ -404,3 +404,10 @@ reagent-effect-guidebook-plant-seeds-remove =
         [1] Removes the
         *[other] remove the
     } seeds of the plant
+
+
+reagent-effect-guidebook-plant-chloroforge =
+    { $chance ->
+        [1] Imprints
+        *[other] imprints
+    } the other chemicals in the solution to the plant's seed

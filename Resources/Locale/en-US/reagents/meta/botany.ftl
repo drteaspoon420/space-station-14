@@ -24,3 +24,6 @@ reagent-desc-diethylamine = A very potent fertilizer, treats plants with nutrien
 
 reagent-name-sedin = sedin
 reagent-desc-sedin = A modified version of diethylamine that can restore seeds on plants at the cost of potency.
+
+reagent-name-chloroforge = chloroforge
+reagent-desc-chloroforge = Imprints other chemicals into the produce of the plant. Spends nutrients and is mildly poisonous to the plant.
